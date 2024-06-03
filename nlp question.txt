@@ -1,0 +1,272 @@
+1. What do you understand by Natural Language Processing?	11
+3. What are stop words?	12
+4. What is NLTK?	12
+5. What is Syntactic Analysis?	13
+6. What is Semantic Analysis?	14
+7. List the components of Natural Language Processing.	15
+8. What is Latent Semantic Indexing (LSI)?	15
+9. What are Regular Expressions?	16
+10. What is Regular Grammar?	16
+11. What is Parsing in the context of NLP?	17
+12. What is TF-IDF?	18
+13. Define the terminology in NLP.	19
+14. Explain Dependency Parsing in NLP.	20
+15. What is the difference between NLP and NLU?	21
+16. What is the difference between NLP and CI?	21
+17. What is Pragmatic Analysis?	22
+18. What is Pragmatic Ambiguity?	22
+19. What are unigrams, bigrams, trigrams, and n-grams in NLP?	23
+20. What are the steps involved in solving an NLP problem?	24
+21. What is Feature Extraction in NLP?	24
+22. What are precision and recall?	25
+23. What is F1 score in NLP?	25
+Advanced NLP Interview Questions	26
+24. How to tokenize a sentence using the nltk package?	26
+25. Explain how we can do parsing.	27
+26. Explain Stemming with the help of an example.	28
+27. Explain Lemmatization with the help of an example.	29
+28. What is Parts-of-speech Tagging?	29
+29. Explain Named Entity Recognition by implementing it.	30
+30. How to check word similarity using the spaCy package	31
+1. What is NLP?	32
+2. What are the main challenges in NLP?	32
+3. What are the different tasks in NLP?	33
+What do you mean by Corpus in NLP?	34
+5. What do you mean by text augmentation in NLP and what are the different text augmentation techniques in NLP?	34
+6. What are some common pre-processing techniques used in NLP?	35
+7. What is text normalization in NLP?	35
+8. What is tokenization in NLP?	36
+9. What is NLTK and How it’s helpful in NLP?	37
+10. What is stemming in NLP, and how is it different from lemmatization?	37
+11. How does part-of-speech tagging work in NLP?	38
+12. What is named entity recognition in NLP?	38
+13. What is parsing in NLP?	39
+14. What are the different types of parsing in NLP?	39
+15. What do you mean by vector space in NLP?	40
+16. What is the bag-of-words model?	41
+17. Define the Bag of N-grams model in NLP.	42
+18. What is the term frequency-inverse document frequency (TF-IDF)?	42
+19. Explain the concept of cosine similarity and its importance in NLP.	43
+20. What are the differences between rule-based, statistical-based and neural-based approaches in NLP?	44
+21. What do you mean by Sequence in the Context of NLP?	45
+22. What are the various types of machine learning algorithms used in NLP?	46
+23. What is Sequence Labelling in NLP?	47
+24.What is topic modelling in NLP?	48
+25. What is the GPT?	49
+Advanced NLP Interview Questions for Experienced	49
+26. What are word embeddings in NLP?	49
+27. What are the various algorithms used for training word embeddings?	50
+28. How to handle out-of-vocabulary (OOV) words in NLP?	51
+29. What is the difference between a word-level and character-level language model?	52
+Word-level	53
+Character-level	53
+30. What is word sense disambiguation?	54
+31. What is co-reference resolution?	54
+32.What is information extraction?	54
+33. What is the Hidden Markov Model, and How it’s helpful in NLP tasks?	55
+34. What is the conditional random field (CRF) model in NLP?	56
+35. What is a recurrent neural network (RNN)?	57
+36. How does the Backpropagation through time work in RNN?	58
+37. What are the limitations of a standard RNN?	59
+38. What is a long short-term memory (LSTM) network?	59
+39. What is the GRU model in NLP?	60
+40. What is the sequence-to-sequence (Seq2Seq) model in NLP?	63
+41. How does the attention mechanism helpful in NLP?	64
+42. What is the Transformer model?	64
+43. What is the role of the self-attention mechanism in Transformers?	65
+44. What is the purpose of the multi-head attention mechanism in Transformers?	65
+45. What are positional encodings in Transformers, and why are they necessary?	66
+46. Describe the architecture of the Transformer model.	66
+47. What is the difference between a generative and discriminative model in NLP?	68
+Generative Models	68
+Discriminative Models	68
+48. What is machine translation, and how does it is performed?	69
+49. What is the BLEU score?	69
+50. List out the popular NLP task and their corresponding evaluation metrics.	71
+Natural Language Processing(NLP) Tasks	71
+Evaluation Metric	71
+1. What are the stages in the lifecycle of a natural language processing (NLP) project?	74
+2. What are some of the common NLP tasks?	75
+3. What are the different approaches used to solve NLP problems?	76
+4. How do Conversational Agents work?	77
+5. What is meant by data augmentation? What are some of the ways in which data augmentation can be done in NLP projects?	77
+6. How can data be obtained for NLP projects?	78
+7. What do you mean by Text Extraction and Cleanup?	78
+8. What are the steps involved in preprocessing data for NLP?	79
+9. What do you mean by Stemming in NLP?	79
+10. What do you mean by Lemmatization in NLP?	80
+NLP Interview Questions for Experienced	80
+1. What is the meaning of Text Normalization in NLP?	80
+2. Explain the concept of Feature Engineering.	81
+3. What is an ensemble method in NLP?	81
+4. What do you mean by TF-IDF in Natural language Processing?	82
+5. What are the steps to follow when building a text classification system?	82
+6. Explain how parsing is done in NLP.	83
+7. What do you mean by a Bag of Words (BOW)?	84
+8. What do you mean by Parts of Speech (POS) tagging in NLP?	84
+9. What is Latent Semantic Indexing (LSI) in NLP?	84
+10. What is the difference between NLP and NLU?	84
+11. What are some metrics on which NLP models are evaluated?	85
+12. Explain the pipeline for Information extraction (IE) in NLP.	85
+13. What do you mean by Autoencoders?	87
+14. What do you mean by Masked language modelling?	87
+15. What is the meaning of Pragmatic Analysis in NLP?	88
+16. What is the meaning of N-gram in NLP?	88
+17. What do you mean by perplexity in NLP?	88
+1. What is Naive Bayes algorithm, When we can use this algorithm in NLP?	89
+2. Explain Dependency Parsing in NLP?	89
+3. What is text Summarization?	89
+4. What is NLTK? How is it different from Spacy?	90
+5. What is information extraction?	90
+6. What is Bag of Words?	90
+7. What is Pragmatic Ambiguity in NLP?	90
+8. What is Masked Language Model?	91
+9. What is the difference between NLP and CI(Conversational Interface)?	91
+10. What are the best NLP Tools?	91
+11. What is POS tagging?	92
+12. What is NES?	92
+NLP Interview Questions for Experienced	92
+13. Which of the following techniques can be used for keyword normalization in NLP, the process of converting a keyword into its base form?	92
+14. Which of the following techniques can be used to compute the distance between two-word vectors in NLP?	93
+15. What are the possible features of a text corpus in NLP?	94
+16. You created a document term matrix on the input data of 20K documents for a Machine learning model. Which of the following can be used to reduce the dimensions of data?	94
+17. Which of the text parsing techniques can be used for noun phrase detection, verb phrase detection, subject detection, and object detection in NLP.	95
+18. Dissimilarity between words expressed using cosine similarity will have values significantly higher than 0.5	95
+19. Which one of the following is keyword Normalization techniques in NLP	95
+20. Which of the below are NLP use cases?	96
+21. In a corpus of N documents, one randomly chosen document contains a total of T terms and the term “hello” appears K times.	96
+22. In NLP, The algorithm decreases the weight for commonly used words and increases the weight for words that are not used very much in a collection of documents	96
+23. In NLP, The process of removing words like “and”, “is”, “a”, “an”, “the” from a sentence is called as	97
+24. In NLP, The process of converting a sentence or paragraph into tokens is referred to as Stemming	97
+25. In NLP, Tokens are converted into numbers before giving to any Neural Network	97
+26. Identify the odd one out	98
+27. TF-IDF helps you to establish?	98
+28. In NLP, The process of identifying people, an organization from a given sentence, paragraph is called	100
+29. Which one of the following is not a pre-processing technique in NLP	100
+30. In text mining, converting text into tokens and then converting them into an integer or floating-point vectors can be done using	101
+31. In NLP, Words represented as vectors are called Neural Word Embeddings	102
+32. In NLP, Context modeling is supported with which one of the following word embeddings	102
+33. In NLP, Bidirectional context is supported by which of the following embedding	102
+34. Which one of the following Word embeddings can be custom trained for a specific subject in NLP	103
+35. Word embeddings capture multiple dimensions of data and are represented as vectors	103
+36. In NLP, Word embedding vectors help establish distance between two tokens	103
+37. Language Biases are introduced due to historical data used during training of word embeddings, which one amongst the below is not an example of bias	103
+38. Which of the following will be a better choice to address NLP use cases such as semantic similarity, reading comprehension, and common sense reasoning	104
+39. Transformer architecture was first introduced with?	104
+40. Which of the following architecture can be trained faster and needs less amount of training data	104
+41. Same word can have multiple word embeddings possible with ____________?	105
+42. For a given token, its input representation is the sum of embedding from the token, segment and position	106
+43. Trains two independent LSTM language model left to right and right to left and shallowly concatenates them.	107
+44. Uses unidirectional language model for producing word embedding.	107
+45. In this architecture, the relationship between all words in a sentence is modelled irrespective of their position. Which architecture is this?	107
+46. List 10 use cases to be solved using NLP techniques?	108
+47. Transformer model pays attention to the most important word in Sentence.	108
+48. Which NLP model gives the best accuracy amongst the following?	108
+49. Permutation Language models is a feature of	109
+50. Transformer XL uses relative positional embedding	109
+Natural Language Processing FAQs	110
+1. Why do we need NLP?	110
+2. What must a natural language program decide?	110
+3. Where can NLP be useful?	110
+4. How to prepare for an NLP Interview?	110
+5. What are the main challenges of NLP?	110
+6. Which NLP model gives best accuracy?	110
+7. What are the major tasks of NLP?	111
+8. What are stop words in NLP?	111
+9. What is stemming in NLP?	111
+10. Why is NLP so hard?	111
+11. What does a NLP pipeline consist of *?	111
+Scenario-based NLP Interview Questions	112
+Q1. What is natural language processing (NLP), and how does it relate to artificial intelligence?	112
+Q2. Can you explain the difference between syntax and semantics in NLP?	112
+Q3. How would you approach developing a machine learning model for a named entity recognition (NER) task?	112
+Q4. What are some common challenges or limitations of NLP, and how do you overcome them?	113
+Q5. How would you approach designing a chatbot for a customer service use case?	113
+Q6. How would you use machine learning to extract meaningful insights from unstructured text data?	113
+Q7. Can you explain the difference between supervised and unsupervised learning in NLP?	114
+Q8. How would you handle a situation where a text classification model is misclassifying a significant number of documents?	114
+Q9. How would you go about developing a system for sentiment analysis of social media posts?	114
+Q10. How would you go about evaluating the performance of an NLP model?	115
+NLP Algorithm Interview Questions with Answers	118
+The Most Common Use-cases of NLP are:	122
+Let Us Look At The Most Common NLP Terms	122
+NLP Interview Questions With Answers	123
+1. What is the NLG (Natural Language Generation)?	126
+2. What is the order of steps in natural language understanding?	126
+3. What is signal processing in NLP?	127
+4. What is pragmatic analysis in NLP?	127
+5. What is syntactic analysis in NLP?	127
+6. What is semantic analysis in NLP?	127
+7. What is sentiment analysis in NLP?	127
+8. What is discourse analysis in NLP?	128
+9. What is pragmatic ambiguity in NLP?	128
+10. What are the major applications of NLP?	128
+11. List any real-world application of NLP?	129
+12. What are the common NLP techniques?	129
+What are the components of NLP?	130
+14. What are the tools used for training NLP models?	130
+15. Which NLP technique uses a lexical knowledge base to obtain the correct base form of the words?	130
+16. List the models to reduce the dimensionality of data in NLP.	130
+17. List some open-source libraries for NLP.	130
+18. Explain the masked language model.	131
+19. What is the bag of words model?	131
+20. What is CBOW in NLP?	132
+21. What is TF-IDF and what are its uses?	132
+22. What are POS and tagging?	132
+23. What is n-gram in NLP?	133
+24. What is skip-gram?	133
+25. What is the corpus in NLP?	133
+26. What are the features of the text corpus in NLP?	133
+27. What is normalization in NLP?	133
+28. What is keyword normalization?	133
+29. What is lemmatization in NLP?	134
+30. What is stemming in NLP?	134
+31. What is ambiguity in NLP?	134
+32. What is tokenization in NLP?	134
+33. What are stop words in NLP?	134
+34. How to find word similarity in NLP?	134
+35. How to find sentence similarity in NLP?	135
+36. How to find document similarity in NLP?	135
+37. What are transformers?	135
+38. What are punctuations in NLP, and how can we remove them?	135
+39. What is latent semantic indexing (LSI)?	135
+40. What is named entity recognition (NER)?	136
+41. What is NLTK in NLP?	136
+42. What is spaCY?	136
+43. What is openNLP?	137
+44. What is the difference between NLTK and openNLP?	137
+45. What is parsing?	137
+46. What is dependency parsing?	137
+47. What is semantic parsing?	137
+48. What is constituency parsing?	137
+49. What is shallow parsing?	138
+50. What are the differences between dependency parsing and shallow parsing?	138
+51. What is language modeling?	138
+52. What is topic modeling?	138
+53. What is text summarization in NLP?	138
+54. What is the difference between a regular expression and regular grammar?	139
+55. What is perplexity in NLP?	139
+56. What is the Naive Bayes algorithm, and where is it used in NLP?	139
+57. What is the PageRank algorithm?	139
+58. What is noise removal?	139
+59. What is word embedding?	139
+60. What are the word embedding libraries?	140
+61. What is word2vec?	140
+61. What is doc2vec?	140
+63. What is a document-term matrix?	141
+64. What is wordnet?	141
+65. What is GloVe in NLP?	141
+66. What is a flexible string matching?	141
+67. What is cosine similarity?	141
+68. What is information extraction?	141
+69. What is object standardization, and when is it used?	142
+71. What is text generation, and when is it done?	142
+71. How can we estimate the entropy of the English language?	142
+72. What is Latent Dirichlet Allocation?	142
+73. What are the conditional random fields?	142
+74. What are the hidden Markov random fields?	142
+75. What is a coreference resolution?	143
+76. What is PAC learning?	143
+77. What is sequence learning?	143
+78. What is an ensemble method?	143
+
